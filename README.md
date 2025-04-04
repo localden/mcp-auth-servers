@@ -15,7 +15,7 @@ Servers above are designed for various runtime scenarios. They are tagged as fol
 
 ## Supported identity providers
 
-| Provider | Scenario | Server Type | Implementation | State | Notes |
-|:---------|:---------|:------------|:---------------|:------|:------|
-| Entra ID | Confidential client, mapped to session token. | ![Dual-purpose MCP Server](https://img.shields.io/badge/MCP%20Server-Dual-cyan) | [`entra-id-cca-session`](/src/entra-id-cca-session/) | ![State: Prototype](https://img.shields.io/badge/State-Prototype-orange) | |
-| GitHub   | GitHub application w/OAuth, mapped to session token. | ![Dual-purpose MCP Server](https://img.shields.io/badge/MCP%20Server-Dual-cyan) | [`github-app-session`](/src/github-app-session/) | ![State: Prototype](https://img.shields.io/badge/State-Prototype-orange) | |
+| Provider | Scenario | Server Type | Implementation | State |
+|:---------|:---------|:------------|:---------------|:------|
+| Entra ID | Confidential client, mapped to session token. | ![Dual-purpose MCP Server](https://img.shields.io/badge/MCP%20Server-Dual-cyan) | [`entra-id-cca-session`](/src/entra-id-cca-session/) | ![State: Prototype](https://img.shields.io/badge/State-Prototype-orange) |
+| GitHub   | GitHub application w/OAuth, mapped to session token. | ![Dual-purpose MCP Server](https://img.shields.io/badge/MCP%20Server-Dual-cyan) | [`github-app-session`](/src/github-app-session/) | ![State: Prototype](https://img.shields.io/badge/State-Prototype-orange) |
