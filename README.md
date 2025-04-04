@@ -10,12 +10,12 @@ Reference servers that demo how authentication works with the current [Model Con
 Servers above are designed for various runtime scenarios. They are tagged as follows:
 
 - Remote MCP servers: ![Remote MCP Server](https://img.shields.io/badge/MCP%20Server-Remote-blue)
-- Local MCP servers: ![Remote MCP Server](https://img.shields.io/badge/MCP%20Server-Local-green)
-- Dual-purpose MCP servers (can run locally or remotely): ![Remote MCP Server](https://img.shields.io/badge/MCP%20Server-Dual-cyan)
+- Local MCP servers: ![Local MCP Server](https://img.shields.io/badge/MCP%20Server-Local-green)
+- Dual-purpose MCP servers (_can run locally or remotely_): ![Dual-purpose MCP Server](https://img.shields.io/badge/MCP%20Server-Dual-cyan)
 
 ## Supported identity providers
 
-| Provider | Scenario | Implementation | State | Notes |
-|:---------|:---------|:---------------|:------|:------|
-| Entra ID | Session-based authentication (confidential client, MCP client acquires session token) | [`entra-id-cca-session`](/src/entra-id-cca-session/) | ![State: Prototype](https://img.shields.io/badge/State-Prototype-orange) | |
-| GitHub   | Session-based authentication (GitHub application w/OAuth, client acquires session token) | [`github-app-session`](/src/github-app-session/) | ![State: Prototype](https://img.shields.io/badge/State-Prototype-orange) | |
+| Provider | Scenario | Server Type | Implementation | State | Notes |
+|:---------|:---------|:------------|:---------------|:------|:------|
+| Entra ID | Session-based authentication (confidential client, MCP client acquires session token) | ![Dual-purpose MCP Server](https://img.shields.io/badge/MCP%20Server-Dual-cyan) | [`entra-id-cca-session`](/src/entra-id-cca-session/) | ![State: Prototype](https://img.shields.io/badge/State-Prototype-orange) | |
+| GitHub   | Session-based authentication (GitHub application w/OAuth, client acquires session token) | ![Dual-purpose MCP Server](https://img.shields.io/badge/MCP%20Server-Dual-cyan) | [`github-app-session`](/src/github-app-session/) | ![State: Prototype](https://img.shields.io/badge/State-Prototype-orange) | |
