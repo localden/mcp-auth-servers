@@ -18,4 +18,5 @@ Servers above are designed for various runtime scenarios. They are tagged as fol
 | Provider | Scenario | Server Type | Implementation | State |
 |:---------|:---------|:------------|:---------------|:------|
 | Entra ID | Confidential client, mapped to session token. | ![Dual-purpose MCP Server](https://img.shields.io/badge/MCP%20Server-Dual-cyan) | [`entra-id-cca-session`](/src/entra-id-cca-session/) | ![State: Prototype](https://img.shields.io/badge/State-Prototype-orange) |
+| Entra ID | Public client, using WAM | ![Local MCP Server](https://img.shields.io/badge/MCP%20Server-Local-green) | [`entra-id-local-wam`](/src/entra-id-local-wam/) | ![State: Prototype](https://img.shields.io/badge/State-Prototype-orange) |
 | GitHub   | GitHub application w/OAuth, mapped to session token. | ![Dual-purpose MCP Server](https://img.shields.io/badge/MCP%20Server-Dual-cyan) | [`github-app-session`](/src/github-app-session/) | ![State: Prototype](https://img.shields.io/badge/State-Prototype-orange) |
