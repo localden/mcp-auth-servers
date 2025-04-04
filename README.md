@@ -9,5 +9,5 @@ Reference servers that demo how authentication works with the current [Model Con
 
 | Provider | Scenario | Implementation | State | Notes |
 |:---------|:---------|:---------------|:------|:------|
-| Entra ID | Session-based authentication (confidential client, MCP client acquires session token) | `entra-id-cca-session` | ![State: Prototype](https://img.shields.io/badge/State-Prototype-orange) | |
-| GitHub   | Session-based authentication (GitHub application w/OAuth, client acquires session token) | 
+| Entra ID | Session-based authentication (confidential client, MCP client acquires session token) | [`entra-id-cca-session`](/src/entra-id-cca-session/) | ![State: Prototype](https://img.shields.io/badge/State-Prototype-orange) | |
+| GitHub   | Session-based authentication (GitHub application w/OAuth, client acquires session token) | [`github-app-session`](/src/github-app-session/) | ![State: Prototype](https://img.shields.io/badge/State-Prototype-orange) | |
