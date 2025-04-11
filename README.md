@@ -1,3 +1,6 @@
+>[!IMPORTANT]
+>This is now [**moved under one of the official Microsoft-supported GitHub organizations**](https://github.com/Azure-Samples/mcp-auth-servers/). Please use that repository as a point of reference.
+
 # 🔒 MCP Server Authentication Reference Collection
 
 Reference servers that demo how authentication works with the current [Model Context Protocol spec](https://spec.modelcontextprotocol.io/specification/2025-03-26/basic/authorization/).
